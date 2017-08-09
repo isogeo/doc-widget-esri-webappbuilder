@@ -22,17 +22,15 @@ Elle se présente sous la forme d'un exécutable Windows autonome, qui démarre 
 L'application a été présentée lors du webinaire du 10 mai 2017 :
 
 {% youtube %}
-https://youtu.be/YWXbev6DETY?t=6m59s
+https://youtu.be/YWXbev6DETY?t=7m00s
 {% endyoutube %}
 
 ---
 
 ## Caractéristiques
 
-L'application est développée par la société arx iT
+L'application est développée par la société arx iT.
 
 ### Licence
 
 Cette extension étant tributaire des architectures où elle est déployée, elle est considérée comme un développement spécifique et n’intègre donc pas les conditions de maintenance de la plateforme Isogeo. Une montée de version ou développement d’une évolution fait l’objet d’un chiffrage.
-
-Le client est cependant libre d’en modifier le code source à condition d’en reverser les modifications au [dépôt principal](https://bitbucket.org/isogeo/isogeo-2-office) \([licence GPL3](https://www.gnu.org/licenses/gpl-3.0.txt)\).
