@@ -7,7 +7,7 @@
 
 ## Installation et configuration
 
-* [install\_widget](installation-et-configuration/installwidget.md)
-* [config\_proxy](installation-et-configuration/configproxy.md)
-* [config\_widget](installation-et-configuration/configwidget.md)
+* [install\_widget](installation-configuration/installwidget.md)
+* [config\_proxy](installation-configuration/configproxy.md)
+* [config\_widget](installation-configuration/configwidget.md)
 
