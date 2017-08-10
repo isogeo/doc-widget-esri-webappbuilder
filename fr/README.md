@@ -21,7 +21,7 @@ Il permet de chercher une donnée dans un OpenCatalog via une recherche libre, q
 
 Il est ensuite possible d’ajouter la donnée via les liens de visualisation documentés (Esri Map, Esri Feature, Esri Tiled Map, WMS en WGS84) et de consulter la métadonnée dans une fenêtre spécifique.
 
-![](assets/widget_AGS_arxit.PNG)
+![](fr/assets/widget_global_zoom.png)
 
 ### Vidéo de présentation
 
