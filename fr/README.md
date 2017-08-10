@@ -1,21 +1,27 @@
 ![](http://www.isogeo.com/images/logo.png)
 
-# Isogeo for Esri WebAppBuilder
+# Isogeo for ArcGIS WebAppBuilder (Developer Edition)
 
+Le widget WebAppBuilder ESRI Isogeo est développé en partenariat avec la société [Arx iT](http://www.arxit.com/) à qui Isogeo sous-traite les développements, la maintenance et demandes d’évolutions. Il a bénéficié de l’expérience engrangée par arx iT sur Isogeo lors du projet [geomayenne](https://www.geomayenne.fr).
 
+A l'instar de tous les plugins/widgets développés à partir de l’API Isogeo, il vise à faciliter la découverte et l’usage des données cataloguées directement dans les différentes interfaces SIG. C’est la solution idéale pour valoriser les données et services SIG en interne danes les applications web générées.
 
-Cela répond à différents besoins :
+Ainsi, il se présente sous la forme d'un “moteur de recherche” intégré à l'interface, qui permet de trouver des données, de les ajouter à sa carte et d'en savoir plus sur la donnée (historique, précision, conditions de diffusion, contact, etc.). Ce moteur de recherche est techniquement connecté aux catalogues de la plateforme Isogeo.
 
-* génération d’un fichier de support pour faciliter les contributions en interne \(metadata party par exemple\), le fichier Excel étant par définition filtrable et ;
-* suivi du projet de catalogage ;
-* transmission en interne pour des consultations hors-ligne au plus proche des habitudes métiers ;
-* impression par lot des métadonnées dans un document charté, pour des questions de validation ou de diffusion en annexe de rendus d’étude, etc. ;
-* échange standardisé en masse ;
-* sauvegarde ;
+Grâce au moteur d'indexation Isogeo, vous pourrez accéder en quelques clics à vos données, celles de vos partenaires et aux données ouvertes (INSPIRE & Opendata) sans quitter votre environnement de travail.
+
+Les différents plugins et widgets partagent une base fonctionnelle commune, résumé ci-après : 
+
+* Rechercher une donnée dans le catalogue, en s’appuyant sur le système de filtres et de tri ;
+* Consulter la fiche de métadonnées dans une fenêtre dédiée ;
+* Visualiser l’emprise de la donnée (ou même son enveloppe convexe) sur la carte ;
+* Afficher la donnée dans l'interface cartographique via les ressources et services renseignées dans Isogeo ;
 
 ## Description
 
-Elle se présente sous la forme d'un exécutable Windows autonome, qui démarre une interface graphique minimaliste permettant à l'utilisateur de gérer l'authentification à la plateforme Isogeo, d'avoir un aperçu global des métadonnées exportables et de régler facilement les différentes options.
+Il permet de chercher une donnée dans un OpenCatalog via une recherche libre, quelques filtres techniques (formats, ressources associées), sémantiques (mots-clés, thèmes INSPIRE, groupes de travail) et géographiques (filtre depuis la carte), des tris (Nom et date de mise à jour de la donnée). 
+
+Il est ensuite possible d’ajouter la donnée via les liens de visualisation documentés (Esri Map, Esri Feature, Esri Tiled Map, WMS en WGS84) et de consulter la métadonnée dans une fenêtre spécifique.
 
 ### Vidéo de présentation
 
@@ -29,7 +35,7 @@ https://youtu.be/YWXbev6DETY?t=7m00s
 
 ## Caractéristiques
 
-L'application est développée par la société arx iT.
+L'application est développée par la société arx iT 
 
 ### Licence
 
