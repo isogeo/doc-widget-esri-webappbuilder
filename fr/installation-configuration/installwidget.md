@@ -7,6 +7,10 @@
 
 ![](../assets/widget_picker.png)
 
+ohohho
+
+![](/assets/widget_picker.png)
+
 ---
 
 ## A une application téléchargée ArcGIS Online
