@@ -35,8 +35,6 @@ https://youtu.be/YWXbev6DETY?t=7m00s
 
 ## Caractéristiques
 
-L'application est développée par la société arx iT 
-
 ### Licence
 
 Cette extension étant tributaire des architectures où elle est déployée, elle est considérée comme un développement spécifique et n’intègre donc pas les conditions de maintenance de la plateforme Isogeo. Une montée de version ou développement d’une évolution fait l’objet d’un chiffrage.
