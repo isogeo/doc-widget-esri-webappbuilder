@@ -1,8 +1,6 @@
 ![](http://www.isogeo.com/images/logo.png)
 
-# Isogeo for ArcGIS WebAppBuilder (Developer Edition)
-
-Le widget WebAppBuilder ESRI Isogeo est développé en partenariat avec la société [Arx iT](http://www.arxit.com/) à qui Isogeo sous-traite les développements, la maintenance et demandes d’évolutions. Il a bénéficié de l’expérience engrangée par arx iT sur Isogeo lors du projet [geomayenne](https://www.geomayenne.fr).
+# Isogeo for ArcGIS WebAppBuilder
 
 A l'instar de tous les plugins/widgets développés à partir de l’API Isogeo, il vise à faciliter la découverte et l’usage des données cataloguées directement dans les différentes interfaces SIG. C’est la solution idéale pour valoriser les données et services SIG en interne danes les applications web générées.
 
@@ -23,6 +21,8 @@ Il permet de chercher une donnée dans un OpenCatalog via une recherche libre, q
 
 Il est ensuite possible d’ajouter la donnée via les liens de visualisation documentés (Esri Map, Esri Feature, Esri Tiled Map, WMS en WGS84) et de consulter la métadonnée dans une fenêtre spécifique.
 
+![](/assets/widget_AGS_arxit.PNG)
+
 ### Vidéo de présentation
 
 L'application a été présentée lors du webinaire du 10 mai 2017 :
@@ -34,6 +34,8 @@ https://youtu.be/YWXbev6DETY?t=7m00s
 ---
 
 ## Caractéristiques
+
+Le widget WebAppBuilder ESRI Isogeo est développé en partenariat avec la société [Arx iT](http://www.arxit.com/) à qui Isogeo sous-traite les développements, la maintenance et demandes d’évolutions. Il a bénéficié de l’expérience engrangée par arx iT sur Isogeo lors du projet [geomayenne](https://www.geomayenne.fr).
 
 ### Licence
 
