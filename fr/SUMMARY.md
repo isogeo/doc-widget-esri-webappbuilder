@@ -11,3 +11,8 @@
 * [Configuration du proxy](installation-configuration/configproxy.md)
 * [Configuration du widget](installation-configuration/configwidget.md)
 
+## Annexes
+
+* [Index des images et figures](pictures.md)
+* [Notes de versions](appendices/versions.md)
+

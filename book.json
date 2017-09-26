@@ -1,3 +1,16 @@
 {
- "plugins": ["anchors", "page-nav-configurable", "youtube"]
+ "plugins": ["image-captions",
+             "page-nav-configurable",
+             "timeline",
+             "youtube"],
+ "pluginsConfig": {
+             "image-captions": {
+                            "variable_name": "pictures",
+                            "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_",
+                            "images": {"1.1.1": {"skip": true}}
+                                 }
+              },
+ "variables": {
+        "pictures": []
+    }
  }
