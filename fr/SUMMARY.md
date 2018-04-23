@@ -11,6 +11,12 @@
 * [Configuration du proxy](installation-configuration/configproxy.md)
 * [Configuration du widget](installation-configuration/configwidget.md)
 
+## Utilisation
+
+* [Rechercher](usage/search.md)
+* [Consulter les métadonnées](usage/metadata.md)
+* [Ajouter une donnée](usage/display.md)
+
 ## Annexes
 
 * [Index des images et figures](pictures.md)
