@@ -4,7 +4,7 @@
 
 Dans la liste des résultats, le résumé de la métadonnées s'affiche au clic sur un résultat :
 
-![](../../assets/widget_metadata_link_search.png "Le résumé de la métadonnée s\'affiche au clic sur un résultat de recherche")
+![](../../assets/widget_metadata_link_search.png "Le résumé de la métadonnée s&rsquo;affiche au clic sur un résultat de recherche")
 
 Un lien `Ouvrir la fiche détaillée` permet d'afficher la métadonnée complète (voir ci-dessous).
 
