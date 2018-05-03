@@ -2,6 +2,8 @@
 
 # Isogeo for ArcGIS WebAppBuilder
 
+## Présentation
+
 A l'instar de tous les plugins/widgets développés à partir de l’API Isogeo, il vise à faciliter la découverte et l’usage des données cataloguées directement dans les différentes interfaces SIG. C’est la solution idéale pour valoriser les données et services SIG en interne danes les applications web générées.
 
 Ainsi, il se présente sous la forme d'un “moteur de recherche” intégré à l'interface, qui permet de trouver des données, de les ajouter à sa carte et d'en savoir plus sur la donnée (historique, précision, conditions de diffusion, contact, etc.). Ce moteur de recherche est techniquement connecté aux catalogues de la plateforme Isogeo.
@@ -17,7 +19,16 @@ Les différents plugins et widgets partagent une base fonctionnelle commune, ré
 
 ![](../assets/widget_global_zoom.png)
 
-### Vidéo de présentation
+#### Exemples en ligne {#online_samples}
+
+Si le widget est souvent intégré dans les applications webs internes, certains exemples sont disponibles en consultation en ligne :
+
+* le widget de démonstration et de test : [https://ags103-demo1.arxit.com/IsogeoForArcGIS/](https://ags103-demo1.arxit.com/IsogeoForArcGIS/)
+* celui de la métropole de Dijon pour ses données Open Data et qui a bénéficié d'un couplage spécifique à l'OpenCatalog : [https://catalog-carto.dijon.fr/#CarteInteractive](https://ags103-demo1.arxit.com/IsogeoForArcGIS/)
+
+    
+
+### Vidéo de présentation {#video}
 
 L'application a été présentée lors du webinaire du 10 mai 2017 :
 
