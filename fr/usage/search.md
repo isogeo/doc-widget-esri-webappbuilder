@@ -13,6 +13,8 @@ Par défaut, seul le champ de recherche libre et les options de tri (ordre alpha
 
 ![](../../assets/widget_WABDE_search_basic_empty.png "Mode recherche standard")
 
+---
+
 ## Recherche avancée {#search_advanced}
 
 En cliquant sur le lien déroualnt `Filtres avancés`, des options de recherche supplémentaires s'affichent :
