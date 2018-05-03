@@ -15,12 +15,6 @@ Les différents plugins et widgets partagent une base fonctionnelle commune, ré
 * Visualiser l’emprise de la donnée (ou même son enveloppe convexe) sur la carte ;
 * Afficher la donnée dans l'interface cartographique via les ressources et services renseignées dans Isogeo ;
 
-## Description
-
-Il permet de chercher une donnée dans un partage via une recherche libre, quelques filtres techniques (formats, ressources associées), sémantiques (mots-clés, thèmes INSPIRE, groupes de travail) et géographiques (filtre depuis la carte), des tris (Nom et date de mise à jour de la donnée). 
-
-Il est ensuite possible d’ajouter la donnée via les liens de visualisation documentés (Esri Map, Esri Feature, Esri Tiled Map, WMS en WGS84) et de consulter la métadonnée dans une fenêtre spécifique.
-
 ![](../assets/widget_global_zoom.png)
 
 ### Vidéo de présentation
