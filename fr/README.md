@@ -17,9 +17,9 @@ Les différents plugins et widgets partagent une base fonctionnelle commune, ré
 * Visualiser l’emprise de la donnée (ou même son enveloppe convexe) sur la carte ;
 * Afficher la donnée dans l'interface cartographique via les ressources et services renseignées dans Isogeo ;
 
-![](../assets/widget_global_zoom.png)
+![](../assets/widget_global_zoom.png "Interface globale du widget Isogeo pour ArcGIS Web AppBuilder")
 
-#### Exemples en ligne {#online_samples}
+### Exemples en ligne {#online_samples}
 
 Si le widget est souvent intégré dans les applications webs internes, certains exemples sont disponibles en consultation en ligne :
 
