@@ -24,7 +24,12 @@ Il est également possible d'ajouter l'ensemble des couches d'un service directe
 * Esri Feature Service \(EFS\)
 * Esri Map Service \(EMS\)
 
+---
 
+## Retirer une donnée {#remove-layer}
 
+> Cette fonctionnalité est en option.
 
+Une fois les données ajoutées, il est alors possible de les retirer depuis le widget _Liste des couches_, modifié par nos soins.
 
+![](../../assets/widget_WABDE_remove_layer.png "Retirer une couche de la carte")
