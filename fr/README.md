@@ -1,4 +1,4 @@
-![](https://www.isogeo.com/images/logo.png)
+![](https://www.isogeo.com/images/isogeo/logo-isogeo.png)
 
 # Isogeo for ArcGIS WebAppBuilder
 
