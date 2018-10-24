@@ -3,6 +3,7 @@
         "ga",
         "image-captions",
         "page-toc",
+        "sitemap-general",
         "timeline",
         "youtube"
     ],
@@ -22,6 +23,9 @@
         "page-toc": {
             "position": "top",
             "selector": ".markdown-section h2, .markdown-section h3, .markdown-section h4"
+        },
+        "sitemap-general": {
+            "prefix": "http://help.isogeo.com/arcgis-webapp/"
         }
     },
     "variables": {
