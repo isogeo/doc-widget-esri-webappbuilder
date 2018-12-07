@@ -93,6 +93,12 @@ jobs:
       - *attach_workspace
 
       - run:
+          name: Rename robots.txt
+          command: |
+            mv dist/arcgis-webapp/robots_qa.txt dist/arcgis-webapp/robots.txt
+            rm dist/arcgis-webapp/robots_prod.txt
+
+      - run:
           name: Install rclone
           command: go get github.com/ncw/rclone
 
@@ -106,12 +112,18 @@ jobs:
       - *attach_workspace
 
       - run:
+          name: Rename robots.txt
+          command: |
+            mv dist/arcgis-webapp/robots_prod.txt dist/arcgis-webapp/robots.txt
+            rm dist/arcgis-webapp/robots_qa.txt
+
+      - run:
           name: Install rclone
           command: go get github.com/ncw/rclone
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/arcgis-webapp prod:\$web/arcgis-webapp --delete-after
+          command: rclone sync dist/arcgis-webapp prod:\$web/arcgis-webapp --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
 
 
 workflows:
