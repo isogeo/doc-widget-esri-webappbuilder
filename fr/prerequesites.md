@@ -22,7 +22,7 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 * ArcGIS Server 10.3 minimum ;
 * Portal for ArcGIS installé et configuré ou un compte ArcGIS OnLine ;
-* [Web AppBuilder for ArcGIS \(Developper Edition\)](https://developers.arcgis.com/web-appbuilder/) version 1.2 minimum configuré ;
+* Application générée avec le WebAppBuilder et déployée sur un serveur Web ;
 * Un serveur Web pour le déploiement de l’application avec [PHP](https://secure.php.net/) installé et son extension cURL activée ;
 * Au moins un utilisateur nommé Esri ;
 * De disposer de services cartographiques publiés sur ArcGIS Server ou sur ArcGIS Online
