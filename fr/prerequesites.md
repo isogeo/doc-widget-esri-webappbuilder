@@ -10,22 +10,37 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 ---
 
-# Prérequis
+## Prérequis
 
-## Isogeo
+### Isogeo
 
 * au moins un groupe de travail Isogeo dans un abonnement payant ;
 * au moins un catalogue contenant au moins une métadonnée de service, partagé à l'application ;
 * des clés d'authentification oAuth2 auprès de l'API Isogeo ;
 
-## Environnement technique
+### Environnement technique
 
 * ArcGIS Server 10.3 minimum ;
 * Portal for ArcGIS installé et configuré ou un compte ArcGIS OnLine ;
 * Application générée avec le WebAppBuilder et déployée sur un serveur Web ;
-* Un serveur Web pour le déploiement de l’application avec [PHP](https://secure.php.net/) installé et son extension cURL activée ;
+* [PHP](https://secure.php.net/) installé sur le serveur Web et son extension cURL activée ;
 * Au moins un utilisateur nommé Esri ;
 * De disposer de services cartographiques publiés sur ArcGIS Server ou sur ArcGIS Online
 
-Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx).
+### Réseau
 
+Les URL(s) suivantes doivent être accessibles sur le serveur pour garantir la communication entre le widget et l'API Isogeo.
+
+* https://id.api.isogeo.com/*
+* https://v1.api.isogeo.com/*
+
+Pour tester la communication, ouvrez les url(s) suivantes dans un navigateur sur le serveur web concerné.
+
+* https://v1.api.isogeo.com/about
+* https://id.api.isogeo.com/about  
+
+ Dans les deux cas, la version de l'API devrait s'afficher en JSON.
+
+### Arcopole Builder
+
+Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx).
