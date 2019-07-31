@@ -1,31 +1,45 @@
-# Ajouter le widget à son application
+# Installation du Widget Isogeo
 
-## Au WebappBuilder Developper Edition
+## Configurer l'authentification à l'API Isogeo
 
-1. Extraire le dossier « Catalog » contenant le Widget et l’ajouter au répertoire client\stemapp\widgets. \(Pour plus d'informations à ce sujet, consulter [l'aide Esri à ce sujet](https://developers.arcgis.com/web-appbuilder/guide/deploy-custom-widget-and-theme.htm).
-2. Vous pouvez maintenant créer une nouvelle application et ajouter le Widget de la même façon que les Widgets standards :
+A l'instar de toutes les applications tierces Isogeo, le widget doit s'authentifier à la plateforme. C'est ce mécanisme qui permet de sécuriser les échanges et de permettre aux administrateurs de configurer à quels catalogues un widget a accès :
 
-![](../../assets/widget_picker.png)
+1. Dezipper l'archive contenant le code du widget ;
+2. Editer le fichier `proxy/proxy_isogeo.php` ;
+3. Remplacer les valeurs `$auth_id` et `$auth_secret` par les valeurs transmises par l'équipe Isogeo ;
 
----
+```php
+//Configuration
+$auth_id = 'widget-esri-webappbuilder-organisme-uuid-super-unique';
+$auth_secret = 'dont-look-i-m-secret';
+```
 
-## A une application téléchargée ArcGIS Online
+## Installation du proxy Isogeo
 
-1. Télécharger l’application depuis ArcGIS Online / Portal for ArcGIS ;
-2. Modifier le fichier `env.js`. [Consulter l'aide Esri à ce sujet](https://developers.arcgis.com/web-appbuilder/sample-code/change-url-of-arcgis-api-for-javascript.htm) ;
-3. Extraire le dossier « Catalog » contenant le Widget dans le répertoire Widgets ;
-4. Référencer le widget en ajoutant le widget dans le fichier `config.json`, situé à la racine :
+Copier le fichier `proxy_isogeo.php` sur le serveur Web. Selon le système d'exploitation du serveur, le répertoire par défaut est le suivant :
 
-```js
+* Linux : `/var/www/html/`
+* Windows : `C:\Applications\Apache24\htdocs`
+
+## Installation du Widget
+
+Copier le répertoire `catalog` sur le serveur Web et récupérer son URL (note, la configuration sera plus simple si l’URL est sur le même domaine que Portal)
+
+Editer le fichier `catalog/config.json` et paramétrer l’URL du proxy Isogeo :
+
+```json
 {
-    "name":"Catalog",
-    "label":"Catalogue de données",
-    "version":"1.0",
-    "uri":"widgets/Catalog/Widget",
-    "index":6,
-    "id":"widgets_Catalog_Widget_37"
+    "proxyUrl": https://mon-serveur/proxy_isogeo.php
 }
 ```
 
+Vous pouvez également modifier les paramètres suivants :
 
-
+* resultSymbol : Symbole de type polygone au format ESRI Json
+* resultSymbolPoint: Symbole de type point (donneés ne contenant pas d’emprise) au format ESRI Json
+* popupWidth : largeur de la popup pour les métadonnées (400 pour les autres couches)
+* popupMoveLeft : Décalage de la popup (pour les modèles d’applications nécessitant un décalage)
+* wfsMode : "snapshot" (requête initiale uniquement) ou "ondemand" (requête à chaque déplacement, mais non
+compatible avec tout les flux WFS)
+* wfsMaxFeatures : Nombre d’entités récupéré dans le flux wfs
+* relationGeo : Relation géographique pour les recherche par emprise

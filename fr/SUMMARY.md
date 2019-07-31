@@ -7,9 +7,12 @@
 
 ## Installation et configuration
 
-* [Ajouter le widget](installation-configuration/installwidget.md)
+* [Ajouter le widget](installation-configuration/addwidget.md)
 * [Configuration du proxy](installation-configuration/configproxy.md)
 * [Configuration du widget](installation-configuration/configwidget.md)
+* [Installation du widget](installation-configuration/installwidget.md)
+* [Ajouter le widget au Portal](installation-configuration/addwidgetportal.md)
+* [Ajouter le widget à une application](installation-configuration/addwidgetapplication.md)
 
 ## Utilisation
 

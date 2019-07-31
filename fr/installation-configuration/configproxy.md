@@ -24,6 +24,3 @@ A l'instar de toutes les applications tierces Isogeo, le widget doit s'authentif
 $auth_id = 'widget-esri-webappbuilder-organisme-uuid-super-unique';
 $auth_secret = 'dont-look-i-m-secret';
 ```
-
-
-
