@@ -5,14 +5,17 @@
 * [Introduction](README.md)
 * [Fonctionnement et prérequis](prerequesites.md)
 
-## Installation et configuration
+## Installation dans le WebAppBuilder
 
-* [Ajouter le widget](installation-configuration/addwidget.md)
-* [Configuration du proxy](installation-configuration/configproxy.md)
-* [Configuration du widget](installation-configuration/configwidget.md)
-* [Installation du widget](installation-configuration/installwidget.md)
-* [Ajouter le widget au Portal](installation-configuration/addwidgetportal.md)
-* [Ajouter le widget à une application](installation-configuration/addwidgetapplication.md)
+* [Ajouter le widget](installation-wab/addwidget.md)
+* [Configuration du proxy](installation-wab/configproxy.md)
+* [Configuration du widget](installation-wab/configwidget.md)
+
+## Installation dans Portal (>10.6)
+
+* [Installation du widget](installation-portal/installwidget.md)
+* [Ajouter le widget au Portal](installation-portal/addwidgetportal.md)
+* [Ajouter le widget à une application](installation-portal/addwidgetapplication.md)
 
 ## Utilisation
 

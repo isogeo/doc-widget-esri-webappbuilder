@@ -4,6 +4,8 @@ Le widget Isogeo fonctionne pour le générateur d'applications web SIG Web AppB
 
 Il [s'ajoute comme tout autre widget aux applications webs](/installation-configuration/installwidget.md) au moment de sa configuration par l'administrateur de la plateforme Portal ou ArcGIS Online. Il est parfaitement intégré à l'interface des applications.
 
+Depuis la version 10.6 du Portal, il peut être intégré directement à celui-ci, ce qui permet d'ajouter le Widget dans n'importe qu'elle application WebAppBuilder.
+
 Une fois en place, il permet à l'utilisateur final de [chercher une donnée](/usage/search.md) via une recherche libre, quelques filtres techniques (formats, ressources associées), sémantiques (mots-clés, thèmes INSPIRE, groupes de travail) et géographiques (filtre depuis la carte), des tris (Nom et date de mise à jour de la donnée). 
 
 Il est ensuite possible d’ajouter la donnée via les liens de visualisation documentés (Esri Map, Esri Feature, Esri Tiled Map, WMS en WGS84) et de [consulter la métadonnée](/usage/metadata.md) dans une fenêtre spécifique.
@@ -22,7 +24,7 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 * ArcGIS Server 10.3 minimum ;
 * Portal for ArcGIS installé et configuré ou un compte ArcGIS OnLine ;
-* Application générée avec le WebAppBuilder et déployée sur un serveur Web ;
+* Application générée avec le WebAppBuilder et déployée sur un serveur Web ou Portal > 10.6 pour l'intégration du Widget dans Portal
 * [PHP](https://secure.php.net/) installé sur le serveur Web et son extension cURL activée ;
 * Au moins un utilisateur nommé Esri ;
 * De disposer de services cartographiques publiés sur ArcGIS Server ou sur ArcGIS Online
