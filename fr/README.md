@@ -1,6 +1,6 @@
 ![](https://www.isogeo.com/images/isogeo/logo-isogeo.png)
 
-# Isogeo for ArcGIS WebAppBuilder
+# Isogeo for ArcGIS Web AppBuilder
 
 ## Présentation
 
@@ -39,7 +39,7 @@ https://youtu.be/YWXbev6DETY?t=7m00s
 
 ## Caractéristiques
 
-Le widget WebAppBuilder ESRI Isogeo est développé en partenariat avec la société [Arx iT](http://www.arxit.com/) à qui Isogeo sous-traite les développements, la maintenance et demandes d’évolutions. Il a bénéficié de l’expérience engrangée par arx iT sur Isogeo lors du projet [geomayenne](https://www.geomayenne.fr).
+Le widget Web AppBuilder ESRI Isogeo est développé en partenariat avec la société [Arx iT](http://www.arxit.com/) à qui Isogeo sous-traite les développements, la maintenance et demandes d’évolutions. Il a bénéficié de l’expérience engrangée par arx iT sur Isogeo lors du projet [geomayenne](https://www.geomayenne.fr).
 
 ### Licence
 

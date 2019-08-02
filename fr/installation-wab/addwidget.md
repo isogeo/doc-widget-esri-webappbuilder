@@ -1,6 +1,6 @@
 # Ajouter le widget à son application
 
-## Au WebappBuilder Developper Edition
+## Au Web AppBuilder Developper Edition
 
 1. Extraire le dossier « Catalog » contenant le Widget et l’ajouter au répertoire client\stemapp\widgets. \(Pour plus d'informations à ce sujet, consulter [l'aide Esri à ce sujet](https://developers.arcgis.com/web-appbuilder/guide/deploy-custom-widget-and-theme.htm).
 2. Vous pouvez maintenant créer une nouvelle application et ajouter le Widget de la même façon que les Widgets standards :

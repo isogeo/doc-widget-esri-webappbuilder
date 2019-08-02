@@ -1,4 +1,4 @@
-# Ajouter le widget à une application WebAppBuilder
+# Ajouter le widget à une application Web AppBuilder
 
 1. Se connecter au Portal en tant qu'administrateur ;
 2. Aller dans l'onglet `Contenu` ;

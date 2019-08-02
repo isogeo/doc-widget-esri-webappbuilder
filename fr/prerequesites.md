@@ -2,9 +2,9 @@
 
 Le widget Isogeo fonctionne pour le générateur d'applications web SIG Web AppBuilder for ArcGIS et potentiellement ses dérivés (comme _arcOpole Builder_)
 
-Il [s'ajoute comme tout autre widget aux applications webs](/installation-configuration/installwidget.md) au moment de sa configuration par l'administrateur de la plateforme Portal ou ArcGIS Online. Il est parfaitement intégré à l'interface des applications.
+Il s'ajoute comme tout autre widget aux applications webs au moment de leur configuration par l'administrateur de la plateforme Portal ou ArcGIS Online. Il est parfaitement intégré à l'interface des applications.
 
-Depuis la version 10.6 du Portal, il peut être intégré directement à celui-ci, ce qui permet d'ajouter le Widget dans n'importe qu'elle application WebAppBuilder.
+Depuis la version 10.6 du Portal, il peut même être intégré directement à celui-ci, ce qui rend possible l'ajout du widget à chaque création d'une application Web AppBuilder dans Portal.
 
 Une fois en place, il permet à l'utilisateur final de [chercher une donnée](/usage/search.md) via une recherche libre, quelques filtres techniques (formats, ressources associées), sémantiques (mots-clés, thèmes INSPIRE, groupes de travail) et géographiques (filtre depuis la carte), des tris (Nom et date de mise à jour de la donnée). 
 
