@@ -25,7 +25,6 @@ Si le widget est souvent intégré dans les applications webs internes, certains
 
 * le widget de démonstration et de test : [https://ags103-demo1.arxit.com/IsogeoForArcGIS/](https://ags103-demo1.arxit.com/IsogeoForArcGIS/)
 * celui de la métropole de Dijon pour ses données Open Data et qui a bénéficié d'un couplage spécifique à l'OpenCatalog : [https://catalog-carto.dijon.fr/#CarteInteractive](https://ags103-demo1.arxit.com/IsogeoForArcGIS/)
-    
 
 ### Vidéo de présentation {#video}
 
@@ -44,3 +43,7 @@ Le widget Web AppBuilder ESRI Isogeo est développé en partenariat avec la soci
 ### Licence
 
 Cette extension étant tributaire des architectures où elle est déployée, elle est considérée comme un développement spécifique et n’intègre donc pas les conditions de maintenance de la plateforme Isogeo. Une montée de version ou développement d’une évolution fait l’objet d’un chiffrage.
+
+---
+
+Date de la dernière mise à jour de cette documentation : {{ gitbook.time | date("DD/MM/YYYY") }}.
