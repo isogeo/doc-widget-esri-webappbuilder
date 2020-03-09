@@ -23,8 +23,8 @@ Les différents plugins et widgets partagent une base fonctionnelle commune, ré
 
 Si le widget est souvent intégré dans les applications webs internes, certains exemples sont disponibles en consultation en ligne :
 
-* le widget de démonstration et de test : [https://ags103-demo1.arxit.com/IsogeoForArcGIS/](https://ags103-demo1.arxit.com/IsogeoForArcGIS/)
-* celui de la métropole de Dijon pour ses données Open Data et qui a bénéficié d'un couplage spécifique à l'OpenCatalog : [https://catalog-carto.dijon.fr/#CarteInteractive](https://ags103-demo1.arxit.com/IsogeoForArcGIS/)
+* le widget de démonstration et de test : [https://isogeo-demo1.arxit.com/](https://isogeo-demo1.arxit.com/)
+* celui de la métropole de Dijon pour ses données Open Data et qui a bénéficié d'un couplage spécifique à l'OpenCatalog : [https://catalog-carto.dijon.fr/#CarteInteractive](https://catalog-carto.dijon.fr/#CarteInteractive)
 
 ### Vidéo de présentation {#video}
 
