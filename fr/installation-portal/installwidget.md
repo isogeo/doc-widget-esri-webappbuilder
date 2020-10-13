@@ -16,10 +16,11 @@ $auth_secret = 'dont-look-i-m-secret';
 
 ## Installation du proxy Isogeo
 
-Copier le fichier `proxy_isogeo.php` sur le serveur Web. Selon le système d'exploitation du serveur, le répertoire par défaut est le suivant :
+Copier le fichier `proxy_isogeo.php` sur le serveur Web. Selon le serveur web, le répertoire par défaut est le suivant :
 
 * Linux : `/var/www/html/`
-* Windows : `C:\Applications\Apache24\htdocs`
+* Windows Apache : `C:\Applications\Apache24\htdocs`
+* Windows IIS : `C:\inetpub\wwwroot\`
 
 ## Installation du Widget
 
@@ -41,5 +42,8 @@ Vous pouvez également modifier les paramètres suivants :
 * popupMoveLeft : Décalage de la popup (pour les modèles d’applications nécessitant un décalage)
 * wfsMode : "snapshot" (requête initiale uniquement) ou "ondemand" (requête à chaque déplacement, mais non
 compatible avec tout les flux WFS)
-* wfsMaxFeatures : Nombre d’entités récupéré dans le flux wfs
+* wfsMaxFeatures : Nombre maximal d’entités récupérées dans un flux wfs
 * relationGeo : Relation géographique pour les recherche par emprise
+* datasetOnly": Afficher uniquement les données rasters et vecteurs (pas de fiches de services ou de fiches ressources)
+* tabLayers": Afficher l'onglet Couches
+* tabContexts": Afficher l'onglet Contexte

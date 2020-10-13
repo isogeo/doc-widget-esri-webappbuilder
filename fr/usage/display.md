@@ -8,11 +8,12 @@ Les métadonnées de type vecteur ou raster peuvent fournir une option d'ajout s
 
 * Web Feature Service \(WFS\)
 * Web Map Service \(WMS\)
-* Web Map Tile Service \(WMTS\)
 * Esri Feature Service \(EFS\)
 * Esri Map Service \(EMS\)
 
 Consulter [l'aide en ligne Isogeo au sujet du recensement automatisé des services et de l'association couche de service / donnée cataloguée](http://help.isogeo.com/fr/features/inventory/md_services/srv_intro.html).
+
+> NB : Si plusieurs services sont associés à une même donnée. Le widget affichera en priorité les formats Esri.
 
 ## Services géographiques {#add-service}
 
@@ -20,7 +21,6 @@ Il est également possible d'ajouter l'ensemble des couches d'un service directe
 
 * Web Feature Service \(WFS\)
 * Web Map Service \(WMS\)
-* Web Map Tile Service \(WMTS\)
 * Esri Feature Service \(EFS\)
 * Esri Map Service \(EMS\)
 
