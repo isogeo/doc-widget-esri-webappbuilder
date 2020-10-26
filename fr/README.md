@@ -4,7 +4,7 @@
 
 ## Présentation
 
-A l'instar de tous les plugins/widgets développés à partir de l’API Isogeo, il vise à faciliter la découverte et l’usage des données cataloguées directement dans les différentes interfaces SIG. C’est la solution idéale pour valoriser les données et services SIG en interne danes les applications web générées.
+A l'instar de tous les plugins/widgets développés à partir de l’API Isogeo, il vise à faciliter la découverte et l’usage des données cataloguées directement dans les différentes interfaces SIG. C’est la solution idéale pour valoriser les données et services SIG en interne dans les applications web générées.
 
 Ainsi, il se présente sous la forme d'un “moteur de recherche” intégré à l'interface, qui permet de trouver des données, de les ajouter à sa carte et d'en savoir plus sur la donnée (historique, précision, conditions de diffusion, contact, etc.). Ce moteur de recherche est techniquement connecté aux catalogues de la plateforme Isogeo.
 

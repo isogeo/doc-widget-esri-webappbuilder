@@ -19,6 +19,7 @@
 * [Installation du widget](installation-portal/installwidget.md)
 * [Ajouter le widget au Portal](installation-portal/addwidgetportal.md)
 * [Ajouter le widget à une application](installation-portal/addwidgetapplication.md)
+* [Mettre à jour](installation-portal/update.md)
 
 ## Utilisation
 
