@@ -4,11 +4,11 @@
 
 * [Introduction](README.md)
 * [Fonctionnement et prérequis](prerequesites.md)
-* [Essayer le plugin](tryit.md)
+* [Essayer le widget](tryit.md)
 
 ## Installation et configuration
 
-### Dans le Web App Builder
+### Dans le Web AppBuilder
 
 * [Ajouter le widget](installation-wab/addwidget.md)
 * [Configuration du proxy](installation-wab/configproxy.md)
@@ -32,4 +32,3 @@
 
 * [Index des images et figures](pictures.md)
 * [Notes de versions](appendices/versions.md)
-

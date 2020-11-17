@@ -1,4 +1,4 @@
-# Isogeo - Widget WebApp Builder documentation
+# Isogeo - Widget Web AppBuilder documentation
 
 [![Build Status](https://dev.azure.com/isogeo/Documentations/_apis/build/status/isogeo.doc-widget-esri-webappbuilder?branchName=master)](https://dev.azure.com/isogeo/Documentations/_build/latest?definitionId=32&branchName=master)
 

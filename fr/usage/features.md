@@ -11,7 +11,7 @@ Le widget Isogeo (catalogue) s'ajoute aux applications générées par le WebApp
 | Fenêtre résumé au clic               | Standard              |
 | Métadonnées depuis la fenêtre résumé | Standard              |
 | Ajouter une donnée à la carte via un webservice | Standard   |
-| Gérer la liste des couches | Standard   |
+| Gérer la liste des couches ajoutée à la carte | Standard   |
 | Enregistrer et charger un contexte | Standard   |
 
 ## Widget Liste des couches (intégré à WebApp) {#widgetLayers}

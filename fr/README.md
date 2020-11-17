@@ -1,6 +1,6 @@
 ![](https://www.isogeo.com/images/isogeo/logo-isogeo.png)
 
-# Isogeo for ArcGIS Web AppBuilder
+# Widget Web AppBuilder - ESRI Isogeo
 
 ## Présentation
 
@@ -17,13 +17,14 @@ Les différents plugins et widgets partagent une base fonctionnelle commune, ré
 * Visualiser l’emprise de la donnée (ou même son enveloppe convexe) sur la carte ;
 * Afficher la donnée dans l'interface cartographique via les ressources et services renseignées dans Isogeo ;
 
-![](../assets/widget_global_zoom.png "Interface globale du widget Isogeo pour ArcGIS Web AppBuilder")
+![](../assets/widget_global_zoom.png "Interface globale du widget Web AppBuilder")
 
 ### Exemples en ligne {#online_samples}
 
 Si le widget est souvent intégré dans les applications webs internes, certains exemples sont disponibles en consultation en ligne :
 
-* le widget de démonstration et de test : [https://isogeo-demo1.arxit.com/](https://isogeo-demo1.arxit.com/)
+* le widget de démonstration intégré au Portal Isogeo : [https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=ee789033a9764b548d208b220c269d0e](https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=ee789033a9764b548d208b220c269d0e)
+* le widget de démonstration ArxIT dans une application Web AppBuilder dédiée : [https://isogeo-demo1.arxit.com/](https://isogeo-demo1.arxit.com/)
 * celui de la métropole de Dijon pour ses données Open Data et qui a bénéficié d'un couplage spécifique à l'OpenCatalog : [https://catalog-carto.dijon.fr/#CarteInteractive](https://catalog-carto.dijon.fr/#CarteInteractive)
 
 ### Vidéo de présentation {#video}
