@@ -32,7 +32,7 @@
             "selector": ".markdown-section h2, .markdown-section h3"
         },
         "sitemap-general": {
-            "prefix": "http://help.isogeo.com/arcgis-webapp/"
+            "prefix": "https://help.isogeo.com/arcgis-webapp/"
         }
     },
     "variables": {
