@@ -23,9 +23,8 @@ Les différents plugins et widgets partagent une base fonctionnelle commune, ré
 
 Si le widget est souvent intégré dans les applications webs internes, certains exemples sont disponibles en consultation en ligne :
 
-* le widget de démonstration intégré au Portal Isogeo : [https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=ee789033a9764b548d208b220c269d0e](https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=ee789033a9764b548d208b220c269d0e)
+* le widget de démonstration intégré au Portal Isogeo : [https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=3d98d958f6e3481aa61b5da83e0bff0b](https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=3d98d958f6e3481aa61b5da83e0bff0b)
 * le widget de démonstration ArxIT dans une application Web AppBuilder dédiée : [https://isogeo-demo1.arxit.com/](https://isogeo-demo1.arxit.com/)
-* celui de la métropole de Dijon pour ses données Open Data et qui a bénéficié d'un couplage spécifique à l'OpenCatalog : [https://catalog-carto.dijon.fr/#CarteInteractive](https://catalog-carto.dijon.fr/#CarteInteractive)
 
 ### Vidéo de présentation {#video}
 
