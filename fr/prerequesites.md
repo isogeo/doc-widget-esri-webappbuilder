@@ -26,14 +26,6 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 * Certificat SSL valide
 * [PHP](https://secure.php.net/) installé et son extension cURL activée (à vérfier avec un phpinfo)
 
-### Logiciels
-
-* ArcGIS Server > 10.3
-* Portal for ArcGIS > 10.6
-* Application générée avec le WebAppBuilder dans Portal ou déployée sur un serveur Web
-* Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour l'installation)
-* Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo
-
 ### Réseau
 
 Les URL(s) suivantes doivent être accessibles sur le serveur pour garantir la communication entre le widget et l'API Isogeo.
@@ -47,6 +39,14 @@ Pour tester la communication, ouvrez les url(s) suivantes dans un navigateur sur
 * https://id.api.isogeo.com/about  
 
  Dans les deux cas, la version de l'API devrait s'afficher en JSON.
+
+### Logiciels
+
+* ArcGIS Server > 10.3
+* Portal for ArcGIS > 10.6
+* Application générée avec le WebAppBuilder dans Portal ou déployée sur un serveur Web
+* Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour l'installation)
+* Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo
 
 ### Arcopole Builder
 
