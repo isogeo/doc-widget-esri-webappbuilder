@@ -20,14 +20,19 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 * au moins un catalogue contenant au moins une métadonnée de service, partagé à l'application ;
 * des clés d'authentification oAuth2 auprès de l'API Isogeo ;
 
-### Environnement technique
+### Serveur
 
-* ArcGIS Server 10.3 minimum ;
-* Portal for ArcGIS installé et configuré ou un compte ArcGIS OnLine ;
-* Application générée avec le WebAppBuilder et déployée sur un serveur Web ou Portal > 10.6 pour l'intégration du Widget dans Portal
-* [PHP](https://secure.php.net/) installé sur le serveur Web et son extension cURL activée ;
-* Au moins un utilisateur nommé Esri ;
-* De disposer de services cartographiques publiés sur ArcGIS Server ou sur ArcGIS Online
+* Serveur Web configuré (Apache, IIS...)
+* Certificat SSL valide
+* [PHP](https://secure.php.net/) installé et son extension cURL activée (à vérfier avec un phpinfo)
+
+### Logiciels
+
+* ArcGIS Server > 10.3
+* Portal for ArcGIS > 10.6
+* Application générée avec le WebAppBuilder dans Portal ou déployée sur un serveur Web
+* Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour l'installation)
+* Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo
 
 ### Réseau
 
