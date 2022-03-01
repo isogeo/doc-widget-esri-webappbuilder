@@ -24,7 +24,7 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 * Serveur Web configuré (Apache, IIS...)
 * Certificat SSL valide
-* [PHP](https://secure.php.net/) installé et son extension cURL activée (à vérfier avec un phpinfo)
+* [PHP](https://secure.php.net/) installé et son extension cURL activée (à vérifier avec un phpinfo)
 
 ### Réseau
 
@@ -44,7 +44,7 @@ Pour tester la communication, ouvrez les url(s) suivantes dans un navigateur sur
 
 * ArcGIS Server > 10.3
 * Portal for ArcGIS > 10.6
-* Application générée avec le WebAppBuilder dans Portal ou déployée sur un serveur Web
+* Application générée avec le Web AppBuilder dans Portal ou déployée sur un serveur Web
 * Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour l'installation)
 * Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo
 
