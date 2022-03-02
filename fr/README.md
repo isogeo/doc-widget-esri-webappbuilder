@@ -23,7 +23,7 @@ Les différents plugins et widgets partagent une base fonctionnelle commune, ré
 
 Si le widget est souvent intégré dans les applications webs internes, certains exemples sont disponibles en consultation en ligne :
 
-* le widget de démonstration intégré au Portal Isogeo : [https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=3d98d958f6e3481aa61b5da83e0bff0b](https://carto.isogeo.net/portal/apps/webappviewer/index.html?id=3d98d958f6e3481aa61b5da83e0bff0b)
+* le widget de démonstration intégré au Portal Isogeo : [https://carto.isogeo.net/widget_isogeo_webappbuilder_demo](https://carto.isogeo.net/widget_isogeo_webappbuilder_demo)
 * le widget de démonstration ArxIT dans une application Web AppBuilder dédiée : [https://isogeo-demo1.arxit.com/](https://isogeo-demo1.arxit.com/)
 
 ### Vidéo de présentation {#video}
