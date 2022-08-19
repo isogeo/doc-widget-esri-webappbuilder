@@ -47,3 +47,15 @@ compatible avec tout les flux WFS)
 * datasetOnly": Afficher uniquement les données rasters et vecteurs (pas de fiches de services ou de fiches ressources)
 * tabLayers": Afficher l'onglet Couches
 * tabContexts": Afficher l'onglet Contexte
+* openFiltersAtStart": Déplier tous les filtres à l'ouverture du Widget
+* filterKeyword": Afficher le filtre sur les mots-clés
+* filterOwner": Afficher le filtre sur le propriétaire
+* filterThematic": Afficher le filtre sur les thématiques
+* filterTheme": Afficher le filtre sur les thèmes Inspire
+* filterFormat": Afficher le filtre sur les formats
+* filterGeo": Afficher le filtre sur l'étendue de la carte
+* filterSelection": Afficher le filtre sur une zone dessinée
+* filterView": Afficher le filtre sur les données visualisables
+* filterDownload": Afficher le filtre sur les données téléchargeable
+* footer": Afficher le pied de page
+<!-- * useMetadataName": -->
