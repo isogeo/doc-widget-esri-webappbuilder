@@ -9,9 +9,20 @@ A l'instar de toutes les applications tierces Isogeo, le widget doit s'authentif
 3. Remplacer les valeurs `$auth_id` et `$auth_secret` par les valeurs transmises par l'équipe Isogeo ;
 
 ```php
-//Configuration
 $auth_id = 'widget-esri-webappbuilder-organisme-uuid-super-unique';
 $auth_secret = 'dont-look-i-m-secret';
+```
+En cas d'utilisation d'un serveur proxy pour l'accès à Internet, il faut indiquer les paramètres d'authentification à celui-ci selon le modèle ci-dessous :
+
+```php
+$proxy = '127.0.0.1:8080';
+$proxyauth = 'domaine\user:pass';
+```
+Au besoin, vous pouvez également activer le cross-domain en autorisant les appels d'un domaine spécifique ou de tous les domaines :
+
+```php
+header("Access-Control-Allow-Origin: https://host.domain.com");
+header("Access-Control-Allow-Origin: *");
 ```
 
 ## Installation du proxy Isogeo
