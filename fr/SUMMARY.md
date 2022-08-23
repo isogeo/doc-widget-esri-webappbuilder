@@ -21,7 +21,6 @@
 
 ## Utilisation
 
-* [Fonctionnalités](usage/features.md)
 * [Rechercher](usage/search.md)
 * [Consulter les métadonnées](usage/metadata.md)
 * [Ajouter une donnée](usage/display.md)

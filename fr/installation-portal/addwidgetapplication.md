@@ -6,3 +6,7 @@
 4. Ajouter le widget Isogeo dans l'onglet `Personnalisé`.
  
 !["Ajouter le widget à une application"](../../assets/add_widget_application.png)
+
+5. Il est possible d'éditer le fichier de configuration du widget directement depuis l'interface proposée par le Portal. La configuration s'appliquera uniquement à l'application.
+
+!["Ajouter le widget à une application"](../../assets/update_widget_configuration_inside_application.png)
