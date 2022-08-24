@@ -70,5 +70,5 @@ compatible avec tout les flux WFS)
 * filterDownload": Afficher le filtre sur les données téléchargeable
 * footer": Afficher le pied de page
 
-> NB : Pour information, le portail chargera automatiquement la configuration saisie dans le fichier `catalog/config.json` à chaque ajout du widget dans une nouvelle application Web AppBuilder. Dans une application existante, il faut vérifier que l'utilisateur n'a pas modifié la configuration directement depuis le Portal (cf. [Ajouter le widget à une application Web AppBuilder](../../fr/installation-portal/addwidgetapplication.md))
+> NB : Pour information, le portail chargera automatiquement la configuration saisie dans le fichier `catalog/config.json` à chaque ajout du widget dans une nouvelle application Web AppBuilder. Dans une application existante, il faut vérifier que l'utilisateur n'a pas modifié la configuration directement depuis le Portal (cf. [Ajouter le widget à une application Web AppBuilder](/installation-portal/addwidgetapplication.md))
 <!-- * useMetadataName": -->

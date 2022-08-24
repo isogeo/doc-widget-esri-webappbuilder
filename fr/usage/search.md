@@ -1,6 +1,6 @@
 # Rechercher
 
-Le widget de recherche Isogeo s'ouvre au clic sur l'icône (située en haut à droite par défaut) : ![](../../assets/widget_WABDE_icon_color.png).
+Le widget de recherche Isogeo s'ouvre au clic sur l'icône catalogue : ![](../../assets/widget_WABDE_icon_color.png) ou automatiquement au chargement de l'application si l'option a été cochée au moment de son ajout (cf. [Ajouter le widget à une application Web AppBuilder](/installation-portal/addwidgetapplication.md)). 
 
 Deux modes de recherche sont proposés :
 
@@ -9,17 +9,12 @@ Deux modes de recherche sont proposés :
 
 ## Recherche standard {#search_standard}
 
-Par défaut, seul le champ de recherche textuelle et les options de tri (ordre alphabétique des titres des métadonnées et date de mise à jour des données) sont affichés :
-
-![](../../assets/widget_WABDE_search_basic_empty.png "Mode recherche standard")
-
+Par défaut, seul le champ de recherche textuelle et les options de tri (ordre alphabétique des titres et date de mise à jour de la métadonnée) sont affichés.
 La recherche textuelle fonctionne de la même manière que pour les autres applications exploitant l'API Isogeo (cf. [La recherche textuelle](https://help.isogeo.com/admin/fr/features/inventory/search.html#la-recherche-textuelle))
-
----
 
 ## Recherche avancée {#search_advanced}
 
-En cliquant sur le lien déroulant `Filtres avancés`, des options de recherche supplémentaires s'affichent selon la [configuration du Widget](../../fr/installation-portal/addwidgetportal.md):
+En cliquant sur le lien déroulant `Filtres avancés`, des options de recherche supplémentaires s'affichent selon la [configuration du Widget](/installation-portal/addwidgetportal.md):
 
 ![](../../assets/widget_WABDE_search_advanced_empty.png "Mode de recherche avancée")
 

@@ -8,5 +8,5 @@ Un lien `Ouvrir la fiche détaillée` permet d'afficher la métadonnée complèt
 
 ![](../../assets/widget_WABDE_metadata_display.png "Consulter la fiche de métadonnées détaillée")
 
-Si au moins une couche de service est associée à la métadonnée, il est possible d'[ajouter la donnée à la carte](../../fr/display.md).
+Si au moins une couche de service est associée à la métadonnée, il est possible d'[ajouter la donnée à la carte](/display.md).
 Si au moins un lien de téléchargement est associé à la métadonnée, un bouton *Télécharger* s'affiche. 
