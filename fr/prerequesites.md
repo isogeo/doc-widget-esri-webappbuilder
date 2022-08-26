@@ -16,7 +16,7 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 ### Isogeo
 
-* au moins un groupe de travail Isogeo dans un abonnement payant ;
+* au moins un groupe de travail Isogeo ;
 * au moins un catalogue contenant au moins une métadonnée de service, partagé à l'application ;
 * des clés d'authentification oAuth2 auprès de l'API Isogeo ;
 
@@ -40,13 +40,15 @@ Pour tester la communication, ouvrez les url(s) suivantes dans un navigateur sur
 
  Dans les deux cas, la version de l'API devrait s'afficher en JSON.
 
+En cas d'utilisation d'un serveur proxy, il faudra disposer de son url pour l'installation et d'un utilisateur si l'authentication est nécéssaire (cf. [Installation du widget](/installation-portal/installwidget.md)). 
+
 ### Logiciels
 
-* ArcGIS Server > 10.3
+* ArcGIS Server > 10.6
 * Portal for ArcGIS > 10.6
 * Application générée avec le Web AppBuilder dans Portal ou déployée sur un serveur Web
 * Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour l'installation)
-* Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo
+* Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo (internes ou plublics)
 
 ### Arcopole Builder
 

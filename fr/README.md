@@ -1,5 +1,3 @@
-![](https://www.isogeo.com/images/isogeo/logo-isogeo.png)
-
 # Widget Web AppBuilder - ESRI Isogeo
 
 ## Présentation

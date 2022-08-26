@@ -2,7 +2,7 @@
 
 ## Configurer l'authentification à l'API Isogeo
 
-A l'instar de toutes les applications tierces Isogeo, le widget doit s'authentifier à la plateforme. C'est ce mécanisme qui permet de sécuriser les échanges et de permettre aux administrateurs de configurer à quels catalogues un widget a accès :
+A l'instar de toutes les applications tierces Isogeo, le widget doit s'authentifier à la plateforme. C'est ce mécanisme qui permet de sécuriser les échanges et de permettre aux administrateurs de configurer à quel(s) catalogue(s) un widget a accès :
 
 1. Dezipper l'archive contenant le code du widget ;
 2. Editer le fichier `proxy/proxy_isogeo.php` ;
