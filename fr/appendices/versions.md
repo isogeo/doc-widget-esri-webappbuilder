@@ -27,9 +27,9 @@
 
 <br> Publiée en mai 2021
 
-<!-- /timeline -->
-
 * Ajout de la possibilité de configurer le proxy pour l'accès à l'API Isogeo.
+
+<!-- /timeline -->
 
 <!-- timeline -->
 
