@@ -55,20 +55,20 @@ Vous pouvez également modifier les paramètres suivants :
 compatible avec tout les flux WFS)
 * wfsMaxFeatures : Nombre maximal d’entités récupérées dans un flux wfs
 * relationGeo : Relation géographique pour les recherche par emprise
-* datasetOnly": Afficher uniquement les données rasters et vecteurs (pas de fiches de services ou de fiches ressources)
-* tabLayers": Afficher l'onglet Couches
-* tabContexts": Afficher l'onglet Contexte
-* openFiltersAtStart": Déplier tous les filtres à l'ouverture du Widget
-* filterKeyword": Afficher le filtre sur les mots-clés
-* filterOwner": Afficher le filtre sur le propriétaire
-* filterThematic": Afficher le filtre sur les thématiques
-* filterTheme": Afficher le filtre sur les thèmes Inspire
-* filterFormat": Afficher le filtre sur les formats
-* filterGeo": Afficher le filtre sur l'étendue de la carte
-* filterSelection": Afficher le filtre sur une zone dessinée
-* filterView": Afficher le filtre sur les données visualisables
-* filterDownload": Afficher le filtre sur les données téléchargeable
-* footer": Afficher le pied de page
+* datasetOnly : Afficher uniquement les données rasters et vecteurs (pas de fiches de services ou de fiches ressources)
+* tabLayers : Afficher l'onglet Couches
+* tabContexts : Afficher l'onglet Contexte
+* openFiltersAtStart : Déplier tous les filtres à l'ouverture du Widget
+* filterKeyword : Afficher le filtre sur les mots-clés
+* filterOwner : Afficher le filtre sur le propriétaire
+* filterThematic : Afficher le filtre sur les thématiques
+* filterTheme : Afficher le filtre sur les thèmes Inspire
+* filterFormat : Afficher le filtre sur les formats
+* filterGeo : Afficher le filtre sur l'étendue de la carte
+* filterSelection : Afficher le filtre sur une zone dessinée
+* filterView : Afficher le filtre sur les données visualisables
+* filterDownload : Afficher le filtre sur les données téléchargeable
+* footer : Afficher le pied de page
 
 > NB : Pour information, le portail chargera automatiquement la configuration saisie dans le fichier `catalog/config.json` à chaque ajout du widget dans une nouvelle application Web AppBuilder. Dans une application existante, il faut vérifier que l'utilisateur n'a pas modifié la configuration directement depuis le Portal (cf. [Ajouter le widget à une application Web AppBuilder](/installation-portal/addwidgetapplication.md))
 <!-- * useMetadataName": -->
