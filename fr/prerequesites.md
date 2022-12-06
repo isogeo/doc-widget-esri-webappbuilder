@@ -24,8 +24,7 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 * Serveur Web configuré (Apache, IIS...)
 * Certificat SSL valide
-* [PHP](https://secure.php.net/) installé et son extension cURL activée (à vérifier avec un phpinfo)
-
+  
 ### Réseau
 
 Les URL(s) suivantes doivent être accessibles sur le serveur pour garantir la communication entre le widget et l'API Isogeo.
