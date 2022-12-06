@@ -13,12 +13,11 @@
     "client_secret":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 }
 ```
+## Filtrer les résultats sur des données en particuliers {#share-dataset-only}
 
-## Filtrer les résultats sur des données en particuliers
+Si vous souhaitez limiter les résultats à un partage de données (interne VS grand public par exemple), vous pouvez indiquer l'identifiant du partage dans le paramètre `share` du fichier de configuration.
 
-Si vous souhaitez limiter les résultats à un partage de données (interne VS grand public par exemple), vous pouvez indiquer l'identifiant du partage dans le paramètre "share" du fichiers de configuration.
-
-Par exemple, pour le partage de démonstration, nous récupérons l'identifiant dans l'url du partage sur la plateforme d'administration. 
+Par exemple, pour le partage de démonstration, nous récupérons l'identifiant dans l'url du partage sur la plateforme d'administration (en gras ci-dessous). 
 
 https://app.isogeo.com/groups/8e02046c031a454690efe71692d25db5/admin/shares/**1b440817e62c45c19ae206e6e260ace9** 
 
@@ -30,7 +29,7 @@ Si vous souhaitez également n'afficher que les fiches sur les données rasters,
     "dataset-only": true,
 }
 ```
-## Autres configurations
+## Autres configurations possibles
 
 Vous pouvez également modifier les paramètres suivants :
 
