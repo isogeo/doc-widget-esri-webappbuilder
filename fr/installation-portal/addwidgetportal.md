@@ -6,7 +6,7 @@
 4. Ajouter un élément, une application ;
 !["Ajouter une application à Portal"](../../assets/add_application_portal.png)
 5. Choisir une extension d’application (AppBuilder) ;
-6. Renseigner l'URL : `https://mon-serveur/Catalog/manifest.json` ;
+6. Renseigner l'URL : `https://mon-serveur/catalog/manifest.json` ;
 7. Renseigner le nom : `Catalogue Isogeo ;
 8. Renseigner une balise : `Isogeo`;
 !["Ajouter une application Web App Builder"](../../assets/add_application_wab_portal.png)

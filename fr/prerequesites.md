@@ -12,36 +12,42 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 ---
 
-## Prérequis
+## Prérequis {#prerequesites}
 
-### Isogeo
+### Isogeo {#isogeo}
 
 * au moins un groupe de travail Isogeo ;
 * au moins un catalogue contenant au moins une métadonnée de service, partagé à l'application ;
 * des clés d'authentification oAuth2 auprès de l'API Isogeo ;
 
-### Serveur
+### Serveur {#server}
 
 * Serveur Web configuré (Apache, IIS...)
 * Certificat SSL valide
   
-### Réseau
+### Réseau {#network}
 
-Les URL(s) suivantes doivent être accessibles sur le serveur pour garantir la communication entre le widget et l'API Isogeo.
+#### Liste blanche API Isogeo {#cross-domain-list}
+
+L'URL de votre serveur Web doit être ajoutée à la liste blanche des URLS autorisées à contacter l'API Isogeo. 
+Par exemple, pour le [Widget de demo](https://carto.isogeo.net/widget_isogeo_webappbuilder_demo), nous avons autorisé les appels de https://carto.isogeo.net
+Il faut donc nous fournir cette url en amont de l'installation. 
+
+#### Navigateur client {#client}
+
+Les URL(s) suivantes doivent être accessibles sur le navigateur de l'utilisateur :
 
 * https://id.api.isogeo.com/*
 * https://v1.api.isogeo.com/*
 
-Pour tester la communication, ouvrez les url(s) suivantes dans un navigateur sur le serveur web concerné.
+Pour tester la communication, ouvrez les url(s) suivantes :
 
 * https://v1.api.isogeo.com/about
 * https://id.api.isogeo.com/about  
 
  Dans les deux cas, la version de l'API devrait s'afficher en JSON.
 
-En cas d'utilisation d'un serveur proxy, il faudra disposer de son url pour l'installation et d'un utilisateur si l'authentication est nécéssaire (cf. [Installation du widget](/installation-portal/installwidget.md)). 
-
-### Logiciels
+### Logiciels {#softwares}
 
 * ArcGIS Server > 10.6
 * Portal for ArcGIS > 10.6
@@ -49,6 +55,6 @@ En cas d'utilisation d'un serveur proxy, il faudra disposer de son url pour l'in
 * Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour l'installation)
 * Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo (internes ou plublics)
 
-### Arcopole Builder
+### Arcopole Builder {#arcopole}
 
-Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx).
+Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx). Vous pouvez suivre la [documentation officielle](https://www.arcopole.fr/aide/builder/v1.4/guides/utilisation/#!avance/AjouterWidgetTier/AjouterWidgetTier.md) pour ajouter le Widget à Arcopole.
