@@ -2,6 +2,17 @@
 
 <!-- timeline -->
 
+## 2.0 {#version20}
+
+<br> Publiée en novembre 2022
+
+* Suppression du proxy PHP pour faciliter les installations.
+* Ajout de la possibilité de configurer un identifiant de partage.
+  
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 1.9 {#version19}
 
 <br> Publiée en janvier 2022
