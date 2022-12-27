@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [Fonctionnement et prérequis](prerequesites.md)
-* [Essayer le widget](tryit.md)
 
 ## Installation et configuration
 
