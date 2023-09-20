@@ -14,47 +14,21 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 ## Prérequis {#prerequesites}
 
+Le Widget étant hébergé par Isogeo, aucune installation sur un serveur Web n'est necessaire pour son fonctionnement. 
+
 ### Isogeo {#isogeo}
 
 * au moins un groupe de travail Isogeo ;
-* au moins un catalogue contenant au moins une métadonnée de service, partagé à l'application ;
-* des clés d'authentification oAuth2 auprès de l'API Isogeo ;
-
-### Serveur {#server}
-
-* Serveur Web configuré (Apache, IIS...)
-* Certificat SSL valide
-  
-### Réseau {#network}
-
-#### Liste blanche API Isogeo {#cross-domain-list}
-
-L'URL de votre serveur Web doit être ajoutée à la liste blanche des URLS autorisées à contacter l'API Isogeo. 
-Par exemple, pour le [Widget de demo](https://carto.isogeo.net/widget_isogeo_webappbuilder_demo), nous avons autorisé les appels de https://carto.isogeo.net
-Il faut donc nous fournir cette url en amont de l'installation. 
-
-#### Navigateur client {#client}
-
-Les URL(s) suivantes doivent être accessibles sur le navigateur de l'utilisateur :
-
-* https://id.api.isogeo.com/*
-* https://v1.api.isogeo.com/*
-
-Pour tester la communication, ouvrez les url(s) suivantes :
-
-* https://v1.api.isogeo.com/about
-* https://id.api.isogeo.com/about  
-
- Dans les deux cas, la version de l'API devrait s'afficher en JSON.
+* au moins un catalogue contenant au moins une métadonnée de service, partagé à l'application Web AppBuilder;
 
 ### Logiciels {#softwares}
 
 * ArcGIS Server > 10.6
 * Portal for ArcGIS > 10.6
-* Application générée avec le Web AppBuilder dans Portal ou déployée sur un serveur Web
+* Application générée avec le Web AppBuilder dans Portal
 * Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour l'installation)
 * Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo (internes ou plublics)
 
 ### Arcopole Builder {#arcopole}
 
-Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx). Vous pouvez suivre la [documentation officielle](https://www.arcopole.fr/aide/builder/v1.4/guides/utilisation/#!avance/AjouterWidgetTier/AjouterWidgetTier.md) pour ajouter le Widget à Arcopole.
+Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx). Vous pouvez suivre la [documentation officielle](https://www.arcopole.fr/aide/builder/v1.4/guides/utilisation/#!avance/AjouterWidgetTier/AjouterWidgetTier.md) pour ajouter le Widget à Arcopole. 

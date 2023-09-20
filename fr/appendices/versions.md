@@ -2,6 +2,21 @@
 
 <!-- timeline -->
 
+## 2.1.1 {#version211}
+
+<br> Publiée en septembre 2023
+
+* Hébergement du proxy par Isogeo pour faciliter les installations et automatiser les mises à jour
+* Ajout à la carte des groupes de couche
+* Refonte de l'affichage de la fiche détaillée
+* Ajout d'un message d'erreur lorsque l'utilisateur n'a pas accès à une couche de service qu'il souhaite ajouter à la carte
+* Ajout de la recherche par [pertinence](https://help.isogeo.com/admin/fr/features/inventory/search.html#pertinence)
+* Corrections mineures
+  
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.0 {#version20}
 
 <br> Publiée en novembre 2022
