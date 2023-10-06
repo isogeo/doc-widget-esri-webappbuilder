@@ -31,4 +31,4 @@ Le Widget étant hébergé par Isogeo, aucune installation sur un serveur Web n'
 
 ### Arcopole Builder {#arcopole}
 
-Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx). Vous pouvez suivre la [documentation officielle](https://www.arcopole.fr/aide/builder/v1.4/guides/utilisation/#!avance/AjouterWidgetTier/AjouterWidgetTier.md) pour ajouter le Widget à Arcopole. 
+Le widget est également compatible avec [_arcOpole Builder_](https://www.arcopole.fr/generateur-applications-arcopole-builder.aspx) (cf. [Intégrer le Widget à Arcopole](/appendices/arcopolebuilder.md))
