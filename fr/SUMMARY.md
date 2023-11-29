@@ -19,5 +19,6 @@
 
 ## Annexes
 
+* [Intégrer le Widget à Arcopole Builder](appendices/arcopolebuilder.md)
 * [Index des images et figures](pictures.md)
 * [Notes de versions](appendices/versions.md)
