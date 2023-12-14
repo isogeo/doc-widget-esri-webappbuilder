@@ -2,6 +2,17 @@
 
 <!-- timeline -->
 
+## 2.2 {#version22}
+
+<br> Publiée en décembre 2023
+
+* Choix de la couche à ajouter à la carte lorsqu'il y'en a plusieurs associées à la fiche de métadonnée
+* Ajout d'un paramètre permettant de choisir si les couches de services sont ajoutées à la carte en tant que service (soit tout le Map Service) ou en tant que couche (soit uniquement la Feature Layer)
+  
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.1.1 {#version211}
 
 <br> Publiée en septembre 2023

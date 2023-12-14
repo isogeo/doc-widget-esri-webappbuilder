@@ -6,14 +6,18 @@ Les métadonnées de données et de services peuvent permettre l'ajout d'une ou 
 
 Les métadonnées de type vecteur ou raster peuvent fournir une option d'ajout si au moins une couche de service web a été associée. Formats de services supportés :
 
-* Web Feature Service \(WFS\)
 * Web Map Service \(WMS\)
 * Esri Feature Service \(EFS\)
 * Esri Map Service \(EMS\)
 
 Consulter [l'aide en ligne Isogeo au sujet du recensement automatisé des services et de l'association couche de service / donnée cataloguée](https://help.isogeo.com/fr/features/inventory/md_services/srv_intro.html).
 
-> NB : Si plusieurs services sont associés à une même donnée. Le widget affichera en priorité les formats Esri.
+
+Si plusieurs services / couches sont associées à une même donnée. Le widget proposera de choisir la couche à ajouter (EMS, EFS ou WMS) en indiquant le nom du service, le format et le nom de la couche concernée
+
+![Choix de la couche à ajouter à la carte](../../assets/choosing_layer_to_add.png)
+
+> NB : une seule couche par fiche de métadonnée peut être ajoutée à la carte. Pour en choisir une autre, il faud d'abord supprimer de la carte la première couche ajoutée. 
 
 ## Services géographiques {#add-service}
 

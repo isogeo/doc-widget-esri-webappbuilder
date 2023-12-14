@@ -46,6 +46,7 @@ compatible avec tout les flux WFS)
 * useMetadataName : Afficher le nom de la métadonnée comme nom du service/de la couche (dans les widgets *Legende* et *Liste des couches*) ou le nom ArcGIS Server par défaut.
 * filterDomain : Afficher le filtre sur les domaines
 * domains : Indiquer la liste des [thématiques](https://help.isogeo.com/admin/fr/features/admin/group_themes.html) que vous souhaitez afficher dans le filtre *Domaines* (s'il est activé) et non dans le filtre *Thématiques*. Indiquer les termes entre guillements et les séparer par des virgules.
-
+* zoomOnAddedLayer : Zoommer la carte sur l'emprise de la couche de service après son ajout
+* addMapServiceLayerAsFeatureLayer": Ajouter les données à la carte en tant que service ou en tant que couche. Dans le premier cas, c'est tout le Map Service qui est ajouté à la carte lorsqu'une couche est ajoutée.
 
 > NB : Pour information, le portail chargera automatiquement la configuration saisie dans le fichier `catalog/config.json` à chaque ajout du widget dans une nouvelle application Web AppBuilder. Dans une application existante, il faut vérifier que l'utilisateur n'a pas modifié la configuration directement depuis le Portal (cf. [Ajouter le widget à une application Web AppBuilder](/installation-portal/addwidgetapplication.md))
