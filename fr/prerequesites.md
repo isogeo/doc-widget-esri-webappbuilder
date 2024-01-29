@@ -14,7 +14,7 @@ Il est ensuite possible d’ajouter la donnée via les liens de visualisation do
 
 ## Prérequis {#prerequesites}
 
-Le Widget étant hébergé par Isogeo, aucune installation sur un serveur Web n'est necessaire pour son fonctionnement. 
+Le Widget étant hébergé par Isogeo, aucune installation sur un serveur Web n'est nécessaire pour son fonctionnement. 
 
 ### Isogeo {#isogeo}
 
@@ -26,10 +26,16 @@ Le Widget étant hébergé par Isogeo, aucune installation sur un serveur Web n'
 * ArcGIS Server > 10.6
 * Portal for ArcGIS > 10.6
 * Application générée avec le Web AppBuilder dans Portal
-* Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécéssaire pour le référencement dans Portal)
-* Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo (internes ou plublics)
+* Utilisateur nommé Esri administrateur du Portal ou ayant les droits de création d'une extension d'application Web AppBuilder (nécessaire pour le référencement dans Portal)
+* Services cartographiques publiés sur ArcGIS Server et recensés dans Isogeo (privés ou publics)
 
 > NB : En mode On-premises, pour pouvoir référencer le widget Web AppBuilder dans Portal for ArcGIS, il est nécéssaire que le certificat racine utilisé par la solution Isogeo soit approuvé par celui-ci (cf. [documentation officielle d'Esri](https://enterprise.arcgis.com/fr/portal/latest/administer/windows/configuring-the-portal-to-trust-certificates-from-your-certifying-authority.htm)).
+
+### Réseau {#network}
+
+* Accès à https://widget-wab.isogeo.com/manifest.json pour le compte qui lance le service Windows Portal (ou à travers le proxy système)
+
+Si l'accès n'est pas autorisable, il est possible de déployer le Widget directement sur le serveur Web du Portal (Apache, IIS).
 
 ### Arcopole Builder {#arcopole}
 
